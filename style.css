@@ -1,19 +1,19 @@
-body{
+body {
     color: rgb(239, 159, 159);
     background: rgb(206, 222, 230);
     margin: 0px;
-    font-family:"Archivo Black", sans-serif; 
+    font-family: "Archivo Black", sans-serif;
 
 }
 
-header{
+header {
     border-bottom: solid 2px rgb(229, 255, 0);
     padding: 20px;
     font-size: 32px;
     color: rgb(31, 38, 240);
 }
 
-.chamada{
+.chamada {
     background: rgb(45, 0, 128);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -21,18 +21,21 @@ header{
     justify-content: center;
 }
 
-.chamada-texto{
-margin-right: 5%;
+.chamada-texto {
+    margin-right: 5%;
 }
-img{
+
+img {
     height: 200px;
 }
-.categoria-videos{
-     display: flex;
+
+.categoria-videos {
+    display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-.categoria{
+
+.categoria {
     padding-left: 20px;
-    padding-left: 20px;
+    padding-right: 20px;
 }
